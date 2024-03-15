@@ -6,7 +6,7 @@
     font-family: sans-serif;
 
 }
-
+/* Navbar */
 nav{
     width: 100%;
     height: 60px;
@@ -15,9 +15,9 @@ nav{
     justify-content: space-between;
     border-bottom: 1px solid #cccccc;
     background: #fff;
-    position: flex;
-    z-index: 1000;
+    position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 nav .left .logo img{
@@ -205,6 +205,8 @@ main .left .footer_left a:hover{
     border-radius: 5px;
 }
 
+/* center */
+
 main .center{
     width: 50%;
     height: 290px;
@@ -218,9 +220,9 @@ main .center::-webkit-scrollbar{
 }
 main .center .top_box{
     width: 100%;
-    height: 206px;
+    height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 main .center .top_box .my_story_card{
     width: 135px;
@@ -308,4 +310,246 @@ main .center .top_box .story_card .story_name .name{
     font-weight: bold;
     color: #FFFFFF;
     font-size: 16px;
+}
+main .center .my_post{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+main .center .my_post img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+main .center .my_post .post_top{
+    display: flex;
+    align-items: center;
+}
+main .center .my_post .post_top input{
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    border: 0;
+    outline: none;
+    background: #efefef;
+    border-radius: 30px;
+    font-size: 17px;
+}
+main .center .my_post .post_top input:hover{
+    background: #e3e3e3;
+    cursor: pointer;
+}
+main .center .my_post hr{
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    border: 0;
+    margin: 10px 0;
+}
+
+main .center .my_post .post_bottom{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px auto;
+}
+
+main .center .my_post .post_bottom .post_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+main .center .my_post .post_bottom .post_icon:hover{
+    background: #efefef;
+    border-radius: 8px;
+}
+
+main .center .my_post .post_bottom .post_icon i.red{
+    font-size: 23px;
+    color: red;
+    margin-right: 8px;
+}
+
+main .center .my_post .post_bottom .post_icon i.green{
+    font-size: 23px;
+    color: #27cc37;
+    margin-right: 8px;
+}
+
+main .center .my_post .post_bottom .post_icon i.yellow{
+    font-size: 23px;
+    color: #f7b928;
+    margin-right: 8px;
+}
+
+main .center .post{
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+main .center .post .post_top{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+main .center .post .post_top .img_and_name{
+    display: flex;
+}
+main .center .post .post_top .img_and_name img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+
+main .center .post img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+main .center .post .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+main .center .post .info .emoji_img{
+    display: flex;
+}
+
+main .center .post .info .emoji_img img{
+    width: 20px;
+    height: 20px;
+}
+
+main .center post .info .emoji_img p{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #919191;
+}
+
+main .center .post .info .comment{
+    display: flex;
+    align-items: center;
+}
+
+main .center .post .info .comment p{
+    padding: 0 12px;
+    font-size: 15px;
+    color: #475569;
+}
+
+main .center .post hr{
+    width: 100%;
+    height: 1px;
+    background: #cccccc;
+    border: 0;
+    margin: 10px 0;
+}
+
+main .center .post .like{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+main .center .post .like .like_icon{
+    display: flex;
+    align-items: center;
+}
+
+main .center .post .like .like_icon i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #919191;
+}
+
+main .center .post .like .like_icon i.activi{
+    color: #45abff;
+}
+/* post2 */
+main .center .post .img_post{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+main .center .post .img_post .img_left{
+    width: 50%;
+    height: 100%;
+    background-color: #27cc37;
+}
+main .center .post .img_post .img_right{
+    width: 49.5%;
+    height: 100%;
+    /* background-color: #45abff; */
+}
+main .center .post .img_post .img_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+        
+}
+main .center .post .img_post .img_right .right_small{
+    width: 100%;
+    height: 33%;
+}
+
+/* post3 */
+main .center .post .img_post .img_left1{
+    width: 50%;
+    height: 100%;
+    /* background-color: #27cc37; */
+}
+main .center .post .img_post .img_right1{
+    width: 49.5%;
+    height: 100%;
+    /* background-color: #45abff; */
+}
+main .center .post .img_post .img_left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+        
+}
+main .center .post .img_post .img_right1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+        
+}
+main .center .post .img_post .img_right1 .right_small{
+    width: 100%;
+    height: 49.5%;
+}
+main .center .post .img_post .img_left1 .left_small{
+    width: 100%;
+    height: 49.5%;
 }

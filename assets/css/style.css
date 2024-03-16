@@ -72,7 +72,6 @@ nav .center i:hover{
     color: #45abff;
     cursor: pointer;
 }
-
 nav .right{
     display: flex;
     align-items: center;
@@ -100,6 +99,8 @@ nav .right img{
     margin-left: 8px;
     line-height: 45px;
 }
+
+
 
 /* main */
 
@@ -702,4 +703,14 @@ main .right .third_warpper .contact img{
     margin: 8px 15px 8px 0;
     border: 3px solid #45abff;
     cursor: pointer;
+}
+main .right .contact .right_profile .cricle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #27cc37;
+    border: 2px solid #fff;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
 }

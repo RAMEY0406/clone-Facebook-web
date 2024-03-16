@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="assets/image/Logo.png">
     <link rel="stylesheet" href="assets/js/bootstrap.min.css">
     <link rel="stylesheet" href="assets/js/bootstrap.min.js">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -25,23 +27,127 @@
                 <div class="search_bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Search Facebook">
+                    <div class="dropdown_search">
+                        <div class="page">
+
+                            <p>Recent</p>
+                            <div class="menu">
+                                <p style="color: #0EA5E9;">Edit</p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="recent_search">
+                            <div class="profile d-flex w-100">
+                                <div class="img_profile w-50 h-100">
+                                    <img src="assets/image/profile.png" alt="">
+                                </div>
+                                <div class="active w-100">
+                                    <p class="fs-5">Jane Cooper</p>
+                                    <div class="cricle_active d-flex">
+                                        <div class="point"></div>
+                                        <p style="margin-left: 20px;"> 2 New</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delete_recent">
+                                <i class="fa-solid fa-x float-end text-black"></i>
+                            </div>
+                        </div><br>
+                        <div class="recent_search">
+                            <div class="profile d-flex w-100">
+                                <div class="img_profile w-50 h-100">
+                                    <img src="assets/image/profile.png" alt="">
+                                </div>
+                                <div class="active w-100">
+                                    <p class="fs-5">Jane Cooper</p>
+                                    <div class="cricle_active d-flex">
+                                        <div class="point"></div>
+                                        <p style="margin-left: 20px;"> 2 New</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delete_recent">
+                                <i class="fa-solid fa-x float-end text-black"></i>
+                            </div>
+                        </div><br>
+                        <div class="recent_search">
+                            <div class="profile d-flex w-100">
+                                <div class="img_profile w-50 h-100">
+                                    <img src="assets/image/profile.png" alt="">
+                                </div>
+                                <div class="active w-100">
+                                    <p class="fs-5">Jane Cooper</p>
+                                    <div class="cricle_active d-flex">
+                                        <div class="point"></div>
+                                        <p style="margin-left: 20px;"> 2 New</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delete_recent">
+                                <i class="fa-solid fa-x float-end text-black"></i>
+                            </div>
+                        </div><br>
+                        <div class="recent_search">
+                            <div class="profile d-flex w-100">
+                                <div class="img_profile w-50 h-100">
+                                    <img src="assets/image/profile.png" alt="">
+                                </div>
+                                <div class="active w-100">
+                                    <p class="fs-5">Jane Cooper</p>
+                                    <div class="cricle_active d-flex">
+                                        <div class="point"></div>
+                                        <p style="margin-left: 20px;"> 2 New</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delete_recent">
+                                <i class="fa-solid fa-x float-end text-black"></i>
+                            </div>
+                        </div><br>
+                         <div class="recent_search">
+                            <div class="profile d-flex w-100">
+                                <div class="img_profile w-50 h-100">
+                                    <img src="assets/image/profile.png" alt="">
+                                </div>
+                                <div class="active w-100">
+                                    <p class="fs-5">Jane Cooper</p>
+                                    <div class="cricle_active d-flex">
+                                        <div class="point"></div>
+                                        <p style="margin-left: 20px;"> 2 New</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="delete_recent">
+                                <i class="fa-solid fa-x float-end text-black"></i>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
                 </div>
 
             </div>
 
             <div class="center">
-                <i class="fa-solid fa-house-user" style="color: #45abff; "></i>
-                <i class="fa-solid fa-users" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home"></i>
-                <i class="fa-solid fa-tv"></i>
-                <i class="fa-solid fa-store"></i>
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-house-user" style="color: #45abff; ">
+                    <span class="line_home"></span>
+                    <span class="hover_home">Home</span>
+                </i>
+                <i class="fa-solid fa-users"><span class="hover_friend">Friend</span></i>
+                <i class="fa-solid fa-tv"><span class="hover_video">Video</span></i>
+                <i class="fa-solid fa-store"><span class="hover_maketplace">Maketplace</span></i>
+                <i class="fa-regular fa-user"><span class="hover_group">Group</span></i>
             </div>
 
             <div class="right">
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-brands fa-facebook-messenger"></i>
-                <i class="fa-solid fa-bell"></i>
-                <img src="assets/image/profile.png" alt="" width="50px">
+                <i class="fa-solid fa-list"><span class="hover_menu">Menu</span></i>
+                <i class="fa-brands fa-facebook-messenger"><span class="hover_chat">Chat</span></i>
+                <i class="fa-solid fa-bell"><span class="hover_notification">Notifications</span></i>
+                <span class="hover_accounts">
+                    <img src="assets/image/profile.png" style="cursor: pointer;">
+                    <p>Accounts</p>
+                </span>
             </div>
         </nav><br><br>
         <main>
@@ -271,8 +377,7 @@
 
                         <div class="like_icon">
                             <p>
-                                <img src="assets/image/profile.png" alt="" style=
-                            "
+                                <img src="assets/image/profile.png" alt="" style="
                                  width: 30px;
                                  height: 30px;
                                  border-radius: 50%;
@@ -303,7 +408,9 @@
                         </div>
                     </div>
                     <div class="caption">
-                        <p>កំពុងតែស្វែងរកស្បែកជើងរត់ដែលមានគុណភាពល្អនិងមានការផ្តល់ជូននៅការធានាម៉ែនទេ? នៅ Decathlon យើងមានជម្រើសស្បែកជើងកីឡាជាច្រើនសម្រាប់បងប្អូនជ្រើសរើស។ ជាពិេសេសគឺមានការផ្តល់ជូនការធានាទៅលើកាវ (របក​ឬរបើកកាវ) និងថ្នេរទៀតផងសម្រាប់ស្បែកជើងរត់។
+                        <p>កំពុងតែស្វែងរកស្បែកជើងរត់ដែលមានគុណភាពល្អនិងមានការផ្តល់ជូននៅការធានាម៉ែនទេ? នៅ Decathlon
+                            យើងមានជម្រើសស្បែកជើងកីឡាជាច្រើនសម្រាប់បងប្អូនជ្រើសរើស។
+                            ជាពិេសេសគឺមានការផ្តល់ជូនការធានាទៅលើកាវ (របក​ឬរបើកកាវ) និងថ្នេរទៀតផងសម្រាប់ស្បែកជើងរត់។
                             Ref: 8558959
                             #decathloncambodia #runningshoes #warranty… See more</p>
                     </div>
@@ -313,15 +420,15 @@
                             <img src="assets/image/post2_left.png">
                         </div>
                         <div class="img_right">
-                           <div class="right_small">
+                            <div class="right_small">
                                 <img src="assets/image/post_small1.png">
-                           </div>
-                           <div class="right_small">
+                            </div>
+                            <div class="right_small">
                                 <img src="assets/image/post_small2.png">
-                           </div>
-                           <div class="right_small">
+                            </div>
+                            <div class="right_small">
                                 <img src="assets/image/post_small3.png">
-                           </div>
+                            </div>
                         </div>
                     </div>
 
@@ -362,8 +469,7 @@
 
                         <div class="like_icon">
                             <p>
-                                <img src="assets/image/profile.png" alt="" style=
-                            "
+                                <img src="assets/image/profile.png" alt="" style="
                                  width: 30px;
                                  height: 30px;
                                  border-radius: 50%;
@@ -394,7 +500,9 @@
                         </div>
                     </div>
                     <div class="caption">
-                        <p>ថ្ងៃមុនហ្វេនៗបានដឹងពីរបៀបសន្សំសំចៃទិន្នន័យអ៉ីនធឺណិត នៅលើប្រព័ន្ធប្រតិបត្តិ Android ហើយៗ ដូច្នេះថ្ងៃនេះ អេតមីនសូមបង្ហាញពីរបៀបសន្សំសំចៃទិន្នន័យអ៉ីនធឺណិត សម្រាប់កម្មវិធីមួយចំនួននៅលើប្រព័ន្ធប្រតិបត្តិ IOS វិញម្តង!
+                        <p>ថ្ងៃមុនហ្វេនៗបានដឹងពីរបៀបសន្សំសំចៃទិន្នន័យអ៉ីនធឺណិត នៅលើប្រព័ន្ធប្រតិបត្តិ Android ហើយៗ
+                            ដូច្នេះថ្ងៃនេះ អេតមីនសូមបង្ហាញពីរបៀបសន្សំសំចៃទិន្នន័យអ៉ីនធឺណិត
+                            សម្រាប់កម្មវិធីមួយចំនួននៅលើប្រព័ន្ធប្រតិបត្តិ IOS វិញម្តង!
                             តស់! អនុវត្តន៍ជាមួយអេតមីនទាំងអស់គ្នាណា៎!
                             #Metfone… See more</p>
                     </div>
@@ -409,12 +517,12 @@
                             </div>
                         </div>
                         <div class="img_right1">
-                           <div class="right_small">
-                                 <img src="assets/image/mentfone_post3.png" alt="">
-                           </div>
-                           <div class="right_small">
+                            <div class="right_small">
+                                <img src="assets/image/mentfone_post3.png" alt="">
+                            </div>
+                            <div class="right_small">
                                 <img src="assets/image/mentfone_post4.png" alt="">
-                           </div>
+                            </div>
                         </div>
                     </div>
 
@@ -455,8 +563,7 @@
 
                         <div class="like_icon">
                             <p>
-                                <img src="assets/image/profile.png" alt="" style=
-                            "
+                                <img src="assets/image/profile.png" alt="" style="
                                  width: 30px;
                                  height: 30px;
                                  border-radius: 50%;
@@ -471,165 +578,168 @@
             </div>
 
             <div class="right">
-                
-            <div class="first_warpper">
 
-                <div class="page">
+                <div class="first_warpper">
 
-                    <h2>Your Pages and profiles</h2>
-                    <div class="menu">
-                        <p>Edit</p>
-                    </div>
+                    <div class="page">
 
-                </div>
-
-                <div class="page_img">
-                    <p><img src="assets/image/profile.png"></p>
-                    <p>TITB Group</p>
-                </div>
-
-                <div class="page_icon">
-                   <p> <i class="fa-regular fa-bell"></i></p>
-                    <p>Switch to Page</p>
-                </div>
-
-                <div class="page_icon">
-                   <p> <i class="fa-solid fa-bullhorn"></i></p>
-                    <p>Create promotion</p>
-                </div>
-
-            </div>
-
-            <hr>
-
-
-
-            <div class="third_warpper">
-
-                <div class="contact_tag">
-
-                    <h2>Contacts</h2>
-
-                    <div class="contact_icon">
-
-                        <i class="fa-solid fa-video"></i>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-ellipsis"></i>
-
-                    </div>
-
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Marvin McKinney.png">
-                        <div class="cricle"></div>  
-                    </div>
-                    <p>Marvin McKinney</p>
-                </div>
-
-                <div class="contact">
-                    
-                        <div class="right_profile">
-                            <img src="assets/image/Cameron Williamson.png">
-                            <div class="cricle"></div>  
+                        <h2>Your Pages and profiles</h2>
+                        <div class="menu">
+                            <p>Edit</p>
                         </div>
-                    <p>Cameron Williamson</p>
 
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Dianne Russell.png">
-                        <div class="cricle"></div>  
                     </div>
-                    <p>Dianne Russell</p>
 
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Courtney Henry.png">
-                        <div class="cricle"></div>  
+                    <div class="page_img">
+                        <p><img src="assets/image/profile.png"></p>
+                        <div class="activ">
+                            <p>TITB Group</p>
+                            
+                        </div>
                     </div>
-                    <p>Courtney Henry</p>
 
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Albert Flores.png">
-                        <div class="cricle"></div>  
+                    <div class="page_icon">
+                        <p> <i class="fa-regular fa-bell"></i></p>
+                        <p>Switch to Page</p>
                     </div>
-                   
-                    <p>Albert Flores</p>
 
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Ralph Edwards.png">
-                        <div class="cricle"></div>  
+                    <div class="page_icon">
+                        <p> <i class="fa-solid fa-bullhorn"></i></p>
+                        <p>Create promotion</p>
                     </div>
-                    
-                    <p>Ralph Edwards</p>
-
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/jenny Wislson.png">
-                        <div class="cricle"></div>  
-                    </div>
-                    
-                    <p>jenny Wislson</p>
-
-                </div>
-
-                <div class="contact_tag">
-
-                    <h2>Conversation</h2>
 
                 </div>
 
                 <hr>
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Courtney Henry.png">
-                        <div class="cricle"></div>  
+
+
+
+                <div class="third_warpper">
+
+                    <div class="contact_tag">
+
+                        <h2>Contacts</h2>
+
+                        <div class="contact_icon">
+
+                            <i class="fa-solid fa-video"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-solid fa-ellipsis"></i>
+
+                        </div>
+
                     </div>
-                    
-                    <p>Courtney Henry</p>
 
-                </div>
-
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Albert Flores.png"/>
-                        <div class="cricle"></div>  
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Marvin McKinney.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Marvin McKinney</p>
                     </div>
-                    <p>Albert Flores</p>
 
-                </div>
+                    <div class="contact">
 
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/Ralph Edwards.png">
-                        <div class="cricle"></div>  
+                        <div class="right_profile">
+                            <img src="assets/image/Cameron Williamson.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Cameron Williamson</p>
+
                     </div>
-                    <p>Ralph Edwards</p>
 
-                </div>
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Dianne Russell.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Dianne Russell</p>
 
-                <div class="contact">
-                    <div class="right_profile">
-                        <img src="assets/image/jenny Wislson.png">
-                        <div class="cricle"></div>  
                     </div>
-                    <p>jenny Wislson</p>
 
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Courtney Henry.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Courtney Henry</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Albert Flores.png">
+                            <div class="cricle"></div>
+                        </div>
+
+                        <p>Albert Flores</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Ralph Edwards.png">
+                            <div class="cricle"></div>
+                        </div>
+
+                        <p>Ralph Edwards</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/jenny Wislson.png">
+                            <div class="cricle"></div>
+                        </div>
+
+                        <p>jenny Wislson</p>
+
+                    </div>
+
+                    <div class="contact_tag">
+
+                        <h2>Conversation</h2>
+
+                    </div>
+
+                    <hr>
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Courtney Henry.png">
+                            <div class="cricle"></div>
+                        </div>
+
+                        <p>Courtney Henry</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Albert Flores.png" />
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Albert Flores</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/Ralph Edwards.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>Ralph Edwards</p>
+
+                    </div>
+
+                    <div class="contact">
+                        <div class="right_profile">
+                            <img src="assets/image/jenny Wislson.png">
+                            <div class="cricle"></div>
+                        </div>
+                        <p>jenny Wislson</p>
+
+                    </div>
                 </div>
-            </div>
             </div>
 
 

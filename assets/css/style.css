@@ -946,13 +946,19 @@ main .right .contact .right_profile .cricle{
 
 .dropdown_search{
     width: 130%;
-    height: 500px;
+    height: auto;
     background-color: #fff;
     position: absolute;
     border-radius: 7px;
     right: 3px;
     margin-top: 12px;
+    border: 1px solid #919191;
+    padding: 20px;
+    opacity: 0;
 }
+/* .dropdown_search:hover{
+    opacity: 1;
+} */
 .dropdown_search .page{
     display: flex;
     align-items: center;

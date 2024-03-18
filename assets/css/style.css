@@ -449,7 +449,7 @@ main .center .top_box{
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 main .center .top_box .my_story_card{
     width: 135px;
@@ -956,9 +956,11 @@ main .right .contact .right_profile .cricle{
     padding: 20px;
     opacity: 0;
 }
-/* .dropdown_search:hover{
+.search_bar:hover .dropdown_search{
     opacity: 1;
-} */
+}
+
+
 .dropdown_search .page{
     display: flex;
     align-items: center;
